@@ -49,11 +49,11 @@ function checkArray()
 {
     if(i%3===0 && i%5===0)
     {
-    return true;
+      return true;
     }
     else
     {
-        return false;
+      return false;
     }
 }
 
@@ -62,11 +62,11 @@ function checkArray()
 {
     if(i%3===0)
     {
-    return true;
+      return true;
     }
     else
     {
-        return false;
+     return false;
     }
 }
 
