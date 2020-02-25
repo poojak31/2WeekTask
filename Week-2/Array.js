@@ -20,7 +20,5 @@ function DisplayContentsOfTheArray()
     {
         console.log(Number[i]);
     }
-
-    
 }
 
