@@ -17,25 +17,29 @@ function displayContents()
     }
 }
 
+const dualDivisibleNumbers=[];
+
 function checkArray()
 {  
-    for(let i=0;i<=100;i++)
+    for(let i=0;i<Numbers.length;i++)
 {
     if(isFizzBuzz(i))
     {
-        console.log("Fizz Buzz")
+        console.log("Fizz Buzz");
+        dualDivisibleNumbers.push(i);
+        console.log(dualDivisibleNumbers);
     }
     else if(isFizz(i))
     {
-        console.log("Fizz")
+        console.log("Fizz");
     }
     else if(isBuzz(i))
     {
-    console.log("Buzz")
+    console.log("Buzz");
     }
     else
     {
-        console.log(i)
+        console.log(i);
     }
 }
 }
@@ -81,15 +85,6 @@ function  isBuzz(i)
 }
 
 
-const dualDivisibleNumbers=[];
+ 
 
-   for(let i=0;i<=Numbers.length;i++)
-   {
-       if(i%3===0 && i%5===0)
-       {
-          dualDivisibleNumbers.push(i);
-       }
-   }
-   console.log(dualDivisibleNumbers);
-
-
+  
