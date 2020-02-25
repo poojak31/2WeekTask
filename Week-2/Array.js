@@ -1,22 +1,21 @@
-var Number=new Array();
+var Numbers=new Array();
 
-  for(let i=0;i<=100;i++)
- {
-    Number.push(i);
- }
-
-function InsertNumberIntoArray()
+function insertNumbersIntoArray()
 {
-   console.log(Number);
+ for(let i=0;i<=100;i++)
+ {
+    Numbers.push(i);
+ }
+   console.log(Numbers);
 }
 
-function DisplayContentsOfTheArray()
+function displayContentsOfTheArray()
 {
     
-    for(let i=0;i<Number.length;i++)
+    for(let i=0;i<Numbers.length;i++)
     {
-        console.log(Number[i]);
+        console.log(Numbers[i]);
     }
-   
+
 }
 
