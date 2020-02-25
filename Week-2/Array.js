@@ -1,11 +1,11 @@
 const Numbers=new Array();
 
-function insertNumbers()
-{
-    for(let i=0;i<=100;i++)
+for(let i=0;i<=100;i++)
 {
     Numbers.push(i);
 }
+function insertNumbers()
+{
     console.log(Numbers);
 }
 
@@ -72,13 +72,24 @@ function  isBuzz(i)
 {
     if(i%5===0)
     {
-    return true;
+      return true;
     }
     else
     {
-        return false;
+       return false;
     }
 }
 
+
+const dualDivisibleNumbers=[];
+
+   for(let i=0;i<=Numbers.length;i++)
+   {
+       if(i%3===0 && i%5===0)
+       {
+          dualDivisibleNumbers.push(i);
+       }
+   }
+   console.log(dualDivisibleNumbers);
 
 
