@@ -1,19 +1,19 @@
-const Numbers=new Array();
+const numbers=new Array();
 
 for(let i=0;i<=100;i++)
 {
-    Numbers.push(i);
+    numbers.push(i);
 }
 function insertNumbers()
 {
-    console.log(Numbers);
+    console.log(numbers);
 }
 
 function displayContents()
 {
-    for(let i=0;i<Numbers.length;i++)
+    for(let i=0;i<numbers.length;i++)
     {
-        console.log(Numbers[i]);
+        console.log(numbers[i]);
     }
 }
 
@@ -21,7 +21,7 @@ const dualDivisibleNumbers=[];
 
 function checkArray()
 {  
-    for(let i=0;i<Numbers.length;i++)
+    for(let i=0;i<numbers.length;i++)
 {
     if(isFizzBuzz(i))
     {
