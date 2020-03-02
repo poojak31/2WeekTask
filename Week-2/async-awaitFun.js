@@ -12,7 +12,7 @@ async function fetchUsers()
     
         console.log("My local array using async-await function");
 
-        console.table(JSON.stringify(arr));
+        console.log(JSON.stringify(arr));
 
     }
     catch(e)
